@@ -1,0 +1,508 @@
+{
+  "sections": [
+    {
+      "id": 1,
+      "name": "Men",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Topwear",
+          "items": [
+            { "id": 1, "name": "T-Shirts" },
+            { "id": 2, "name": "Casual Shirts" },
+            { "id": 3, "name": "Formal Shirts" },
+            { "id": 4, "name": "Sweatshirts" },
+            { "id": 5, "name": "Sweaters" },
+            { "id": 6, "name": "Jackets" },
+            { "id": 7, "name": "Blazers & Coats" },
+            { "id": 8, "name": "Suits" },
+            { "id": 9, "name": "Rain Jackets" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Indian & Festive Wear",
+          "items": [
+            { "id": 10, "name": "Kurtas & Kurta Sets" },
+            { "id": 11, "name": "Sherwanis" },
+            { "id": 12, "name": "Nehru Jackets" },
+            { "id": 13, "name": "Dhotis" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Bottomwear",
+          "items": [
+            { "id": 14, "name": "Jeans" },
+            { "id": 15, "name": "Casual Trousers" },
+            { "id": 16, "name": "Formal Trousers" },
+            { "id": 17, "name": "Shorts" },
+            { "id": 18, "name": "Track Pants & Joggers" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Innerwear & Sleepwear",
+          "items": [
+            { "id": 19, "name": "Briefs & Trunks" },
+            { "id": 20, "name": "Boxers" },
+            { "id": 21, "name": "Vests" },
+            { "id": 22, "name": "Sleepwear & Loungewear" },
+            { "id": 23, "name": "Thermals" }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Footwear",
+          "items": [
+            { "id": 24, "name": "Casual Shoes" },
+            { "id": 25, "name": "Sports Shoes" },
+            { "id": 26, "name": "Formal Shoes" },
+            { "id": 27, "name": "Sneakers" },
+            { "id": 28, "name": "Sandals & Floaters" },
+            { "id": 29, "name": "Flip Flops" },
+            { "id": 30, "name": "Socks" }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Sports & Active Wear",
+          "items": [
+            { "id": 31, "name": "Sports Shoes" },
+            { "id": 32, "name": "Sports Sandals" },
+            { "id": 33, "name": "Active T-Shirts" },
+            { "id": 34, "name": "Track Pants & Shorts" },
+            { "id": 35, "name": "Tracksuits" },
+            { "id": 36, "name": "Jackets & Sweatshirts" },
+            { "id": 37, "name": "Sports Accessories" },
+            { "id": 38, "name": "Swimwear" }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Gadgets",
+          "items": [
+            { "id": 39, "name": "Smart Wearables" },
+            { "id": 40, "name": "Fitness Gadgets" },
+            { "id": 41, "name": "Headphones" },
+            { "id": 42, "name": "Speakers" }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Fashion Accessories",
+          "items": [
+            { "id": 43, "name": "Wallets" },
+            { "id": 44, "name": "Belts" },
+            { "id": 45, "name": "Perfumes & Body Mists" },
+            { "id": 46, "name": "Trimmers" },
+            { "id": 47, "name": "Deodorants" },
+            { "id": 48, "name": "Ties, Cufflinks & Pocket Squares" },
+            { "id": 49, "name": "Accessory Gift Sets" },
+            { "id": 50, "name": "Caps & Hats" },
+            { "id": 51, "name": "Mufflers, Scarves & Gloves" },
+            { "id": 52, "name": "Phone Cases" },
+            { "id": 53, "name": "Rings & Wristwear" },
+            { "id": 54, "name": "Helmets" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Women",
+      "categories": [
+        {
+          "id": 9,
+          "name": "Indian & Fusion Wear",
+          "items": [
+            { "id": 55, "name": "Kurtas & Suits" },
+            { "id": 56, "name": "Kurtis, Tunics & Tops" },
+            { "id": 57, "name": "Sarees" },
+            { "id": 58, "name": "Ethnic Wear" },
+            { "id": 59, "name": "Leggings, Salwars & Churidars" },
+            { "id": 60, "name": "Skirts & Palazzos" },
+            { "id": 61, "name": "Dress Materials" },
+            { "id": 62, "name": "Lehenga Cholis" },
+            { "id": 63, "name": "Dupattas & Shawls" },
+            { "id": 64, "name": "Jackets" }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Western Wear",
+          "items": [
+            { "id": 65, "name": "Dresses" },
+            { "id": 66, "name": "Tops" },
+            { "id": 67, "name": "Tshirts" },
+            { "id": 68, "name": "Jeans" },
+            { "id": 69, "name": "Trousers & Capris" },
+            { "id": 70, "name": "Shorts & Skirts" },
+            { "id": 71, "name": "Co-ords" },
+            { "id": 72, "name": "Playsuits" },
+            { "id": 73, "name": "Jumpsuits" },
+            { "id": 74, "name": "Shrugs" },
+            { "id": 75, "name": "Sweaters & Sweatshirts" },
+            { "id": 76, "name": "Jackets & Coats" },
+            { "id": 77, "name": "Blazers & Waistcoats" }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Footwear",
+          "items": [
+            { "id": 78, "name": "Flats" },
+            { "id": 79, "name": "Casual Shoes" },
+            { "id": 80, "name": "Heels" },
+            { "id": 81, "name": "Boots" },
+            { "id": 82, "name": "Sports Shoes & Floaters" }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Sports & Active Wear",
+          "items": [
+            { "id": 83, "name": "Clothing" },
+            { "id": 84, "name": "Footwear" },
+            { "id": 85, "name": "Sports Accessories" },
+            { "id": 86, "name": "Sports Equipment" }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Lingerie & Sleepwear",
+          "items": [
+            { "id": 87, "name": "Bra" },
+            { "id": 88, "name": "Briefs" },
+            { "id": 89, "name": "Shapewear" },
+            { "id": 90, "name": "Sleepwear & Loungewear" },
+            { "id": 91, "name": "Swimwear" },
+            { "id": 92, "name": "Camisoles & Thermals" }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Beauty & Personal Care",
+          "items": [
+            { "id": 93, "name": "Makeup" },
+            { "id": 94, "name": "Skincare" },
+            { "id": 95, "name": "Premium Beauty" },
+            { "id": 96, "name": "Lipsticks" },
+            { "id": 97, "name": "Fragrances" }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Gadgets",
+          "items": [
+            { "id": 98, "name": "Smart Wearables" },
+            { "id": 99, "name": "Fitness Gadgets" },
+            { "id": 100, "name": "Headphones" },
+            { "id": 101, "name": "Speakers" }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Jewellery",
+          "items": [
+            { "id": 102, "name": "Fashion Jewellery" },
+            { "id": 103, "name": "Fine Jewellery" },
+            { "id": 104, "name": "Earrings" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Kids",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Boys Clothing",
+          "items": [
+            { "id": 1, "name": "T-Shirts" },
+            { "id": 2, "name": "Shirts" },
+            { "id": 3, "name": "Shorts" },
+            { "id": 4, "name": "Jeans" },
+            { "id": 5, "name": "Trousers" },
+            { "id": 6, "name": "Clothing Sets" },
+            { "id": 7, "name": "Ethnic Wear" },
+            { "id": 8, "name": "Track Pants & Pyjamas" },
+            { "id": 9, "name": "Jacket, Sweater & Sweatshirts" },
+            { "id": 10, "name": "Party Wear" },
+            { "id": 11, "name": "Innerwear & Thermals" },
+            { "id": 12, "name": "Nightwear & Loungewear" },
+            { "id": 13, "name": "Value Packs" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Girls Clothing",
+          "items": [
+            { "id": 1, "name": "Dresses" },
+            { "id": 2, "name": "Tops" },
+            { "id": 3, "name": "Tshirts" },
+            { "id": 4, "name": "Clothing Sets" },
+            { "id": 5, "name": "Lehenga choli" },
+            { "id": 6, "name": "Kurta Sets" },
+            { "id": 7, "name": "Party wear" },
+            { "id": 8, "name": "Dungarees & Jumpsuits" },
+            { "id": 9, "name": "Skirts & shorts" },
+            { "id": 10, "name": "Tights & Leggings" },
+            { "id": 11, "name": "Jeans, Trousers & Capris" },
+            { "id": 12, "name": "Jacket, Sweater & Sweatshirts" },
+            { "id": 13, "name": "Innerwear & Thermals" },
+            { "id": 14, "name": "Nightwear & Loungewear" },
+            { "id": 15, "name": "Value Packs" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Footwear",
+          "items": [
+            { "id": 1, "name": "Casual Shoes" },
+            { "id": 2, "name": "Flipflops" },
+            { "id": 3, "name": "Sports Shoes" },
+            { "id": 4, "name": "Flats" },
+            { "id": 5, "name": "Sandals" },
+            { "id": 6, "name": "Heels" },
+            { "id": 7, "name": "School Shoes" },
+            { "id": 8, "name": "Socks" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Toys & Games",
+          "items": [
+            { "id": 1, "name": "Learning & Development" },
+            { "id": 2, "name": "Activity Toys" },
+            { "id": 3, "name": "Soft Toys" },
+            { "id": 4, "name": "Action Figure / Play set" }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Infants",
+          "items": [
+            { "id": 1, "name": "Bodysuits" },
+            { "id": 2, "name": "Rompers & Sleepsuits" },
+            { "id": 3, "name": "Clothing Sets" },
+            { "id": 4, "name": "Tshirts & Tops" },
+            { "id": 5, "name": "Dresses" },
+            { "id": 6, "name": "Bottom wear" },
+            { "id": 7, "name": "Winter Wear" },
+            { "id": 8, "name": "Innerwear & Sleepwear" },
+            { "id": 9, "name": "Infant Care" }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Kids Accessories",
+          "items": [
+            { "id": 1, "name": "Bags & Backpacks" },
+            { "id": 2, "name": "Watches" },
+            { "id": 3, "name": "Jewellery & Hair accessory" },
+            { "id": 4, "name": "Sunglasses" },
+            { "id": 5, "name": "Masks & Protective Gears" },
+            { "id": 6, "name": "Caps & Hats" }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Brands",
+          "items": [
+            { "id": 1, "name": "H&M" },
+            { "id": 2, "name": "Max Kids" },
+            { "id": 3, "name": "Pantaloons" },
+            { "id": 4, "name": "United Colors Of Benetton Kids" },
+            { "id": 5, "name": "YK" },
+            { "id": 6, "name": "U.S. Polo Assn. Kids" },
+            { "id": 7, "name": "Mothercare" },
+            { "id": 8, "name": "HRX" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "HomeLiving",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Bed Linen & Furnishing",
+          "items": [
+            { "id": 1, "name": "Bed Runners" },
+            { "id": 2, "name": "Mattress Protectors" },
+            { "id": 3, "name": "Bedsheets" },
+            { "id": 4, "name": "Bedding Sets" },
+            { "id": 5, "name": "Blankets, Quilts & Dohars" },
+            { "id": 6, "name": "Pillows & Pillow Covers" },
+            { "id": 7, "name": "Bed Covers" },
+            { "id": 8, "name": "Diwan Sets" },
+            { "id": 9, "name": "Chair Pads & Covers" },
+            { "id": 10, "name": "Sofa Covers" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Bath",
+          "items": [
+            { "id": 1, "name": "Bath Towels" },
+            { "id": 2, "name": "Hand & Face Towels" },
+            { "id": 3, "name": "Beach Towels" },
+            { "id": 4, "name": "Towels Set" },
+            { "id": 5, "name": "Bath Rugs" },
+            { "id": 6, "name": "Bath Robes" },
+            { "id": 7, "name": "Bathroom Accessories" },
+            { "id": 8, "name": "Shower Curtains" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Home Décor",
+          "items": [
+            { "id": 1, "name": "Plants & Planters" },
+            { "id": 2, "name": "Aromas & Candles" },
+            { "id": 3, "name": "Clocks" },
+            { "id": 4, "name": "Mirrors" },
+            { "id": 5, "name": "Wall Décor" },
+            { "id": 6, "name": "Festive Decor" },
+            { "id": 7, "name": "Pooja Essentials" },
+            { "id": 8, "name": "Wall Shelves" },
+            { "id": 9, "name": "Fountains" },
+            { "id": 10, "name": "Showpieces & Vases" },
+            { "id": 11, "name": "Ottoman" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Kitchen & Table",
+          "items": [
+            { "id": 1, "name": "Table Runners" },
+            { "id": 2, "name": "Dinnerware & Serveware" },
+            { "id": 3, "name": "Cups and Mugs" },
+            { "id": 4, "name": "Bakeware & Cookware" },
+            { "id": 5, "name": "Kitchen Storage & Tools" },
+            { "id": 6, "name": "Bar & Drinkware" },
+            { "id": 7, "name": "Table Covers & Furnishings" }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Storage",
+          "items": [
+            { "id": 1, "name": "Bins" },
+            { "id": 2, "name": "Hangers" },
+            { "id": 3, "name": "Organisers" },
+            { "id": 4, "name": "Hooks & Holders" },
+            { "id": 5, "name": "Laundry Bags" }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Flooring",
+          "items": [
+            { "id": 1, "name": "Floor Runners" },
+            { "id": 2, "name": "Carpets" },
+            { "id": 3, "name": "Floor Mats & Dhurries" },
+            { "id": 4, "name": "Door Mats" }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Lamps & Lighting",
+          "items": [
+            { "id": 1, "name": "Floor Lamps" },
+            { "id": 2, "name": "Ceiling Lamps" },
+            { "id": 3, "name": "Table Lamps" },
+            { "id": 4, "name": "Wall Lamps" },
+            { "id": 5, "name": "Outdoor Lamps" },
+            { "id": 6, "name": "String Lights" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Beauty",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Makeup",
+          "items": [
+            { "id": 1, "name": "Lipstick" },
+            { "id": 2, "name": "Lip Gloss" },
+            { "id": 3, "name": "Lip Liner" },
+            { "id": 4, "name": "Mascara" },
+            { "id": 5, "name": "Eyeliner" },
+            { "id": 6, "name": "Kajal" },
+            { "id": 7, "name": "Eyeshadow" },
+            { "id": 8, "name": "Foundation" },
+            { "id": 9, "name": "Primer" },
+            { "id": 10, "name": "Concealer" },
+            { "id": 11, "name": "Compact" },
+            { "id": 12, "name": "Nail Polish" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Skincare, Bath & Body",
+          "items": [
+            { "id": 1, "name": "Face Moisturiser" },
+            { "id": 2, "name": "Cleanser" },
+            { "id": 3, "name": "Masks & Peel" },
+            { "id": 4, "name": "Sunscreen" },
+            { "id": 5, "name": "Serum" },
+            { "id": 6, "name": "Face Wash" },
+            { "id": 7, "name": "Eye Cream" },
+            { "id": 8, "name": "Lip Balm" },
+            { "id": 9, "name": "Body Lotion" },
+            { "id": 10, "name": "Body Wash" },
+            { "id": 11, "name": "Body Scrub" },
+            { "id": 12, "name": "Hand Cream" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Haircare",
+          "items": [
+            { "id": 1, "name": "Shampoo" },
+            { "id": 2, "name": "Conditioner" },
+            { "id": 3, "name": "Hair Cream" },
+            { "id": 4, "name": "Hair Oil" },
+            { "id": 5, "name": "Hair Gel" },
+            { "id": 6, "name": "Hair Color" },
+            { "id": 7, "name": "Hair Serum" },
+            { "id": 8, "name": "Hair Accessory" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Appliances",
+          "items": [
+            { "id": 1, "name": "Hair Straightener" },
+            { "id": 2, "name": "Hair Dryer" },
+            { "id": 3, "name": "Epilator" }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Men's Grooming",
+          "items": [
+            { "id": 1, "name": "Trimmers" },
+            { "id": 2, "name": "Beard Oil" },
+            { "id": 3, "name": "Hair Wax" }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Beauty Gift & Makeup Set",
+          "items": [
+            { "id": 1, "name": "Beauty Gift" },
+            { "id": 2, "name": "Makeup Kit" }
+          ]
+        }
+      ]
+    }
+  ]
+}
