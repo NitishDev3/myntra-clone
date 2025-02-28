@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ProductCard from "./ProductCard";
 
 const ProductContainer = ({ products }) => {
-  const pages = products.length / 20;
+  const pages = Math.ceil(products.length / 20);
   const [count, setCount] = useState(0);
 
   let start = count === 0 ? count * 20 : count * 20 + 1;
@@ -25,9 +25,9 @@ const ProductContainer = ({ products }) => {
         </button>
         <input
           type="text"
-          value={count + 1}
+          value={`${count + 1} of ${pages} `}
           disabled
-          className="text-center border border-gray-500 h-10 w-10 my-auto"
+          className="text-center border border-gray-500 h-10 w-18 my-auto"
         />
         <button
           className="bg-[#ff3f6c] p-2 w-1/6 m-3 text-white"

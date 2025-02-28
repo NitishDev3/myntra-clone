@@ -1,15 +1,17 @@
-import { StrictMode } from "react";
+import { lazy, StrictMode, Suspense } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import App from "./App.jsx";
 import Home from "./components/Home.jsx";
-import Login from "./components/Login.jsx";
-import Men from "./components/Men.jsx";
-import { Women } from "./components/Women.jsx";
-import Kids from "./components/Kids.jsx";
-import HomeLiving from "./components/HomeLiving.jsx";
-import Beauty from "./components/Beauty.jsx";
+import Loading from "./components/Loading.jsx";
+
+const Login = lazy(() => import("./components/Login.jsx"));
+const Men = lazy(() => import("./components/Men.jsx"));
+const Women = lazy(() => import("./components/Women.jsx"));
+const Kids = lazy(() => import("./components/Kids.jsx"));
+const Beauty = lazy(() => import("./components/Beauty.jsx"));
+const HomeLiving = lazy(() => import("./components/HomeLiving.jsx"));
 
 const router = createBrowserRouter([
   {
@@ -22,28 +24,52 @@ const router = createBrowserRouter([
       },
       {
         path: "/login",
-        element: <Login />,
+        element: (
+          <Suspense fallback={<Loading />}>
+            <Login />
+          </Suspense>
+        ),
       },
       {
         path: "/men",
-        element: <Men />
+        element: (
+          <Suspense fallback={<Loading />}>
+            <Men />
+          </Suspense>
+        ),
       },
       {
         path: "/women",
-        element: <Women />
+        element: (
+          <Suspense fallback={<Loading />}>
+            <Women />
+          </Suspense>
+        ),
       },
       {
         path: "/kids",
-        element: <Kids />
+        element: (
+          <Suspense fallback={<Loading />}>
+            <Kids />
+          </Suspense>
+        ),
       },
       {
         path: "/homeliving",
-        element: <HomeLiving />
+        element: (
+          <Suspense fallback={<Loading />}>
+            <HomeLiving />
+          </Suspense>
+        ),
       },
       {
         path: "/beauty",
-        element: <Beauty />
-      }
+        element: (
+          <Suspense fallback={<Loading />}>
+            <Beauty />
+          </Suspense>
+        ),
+      },
     ],
   },
 ]);
